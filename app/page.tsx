@@ -90,7 +90,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen flex items-center justify-center p-4">
-      <div className="w-full max-w-md p-8 rounded-3xl border-2 border-rose-300">
+      <div className="w-full max-w-4xl p-8 rounded-3xl border-2 border-rose-300">
         <div className="space-y-6">
           <div className="text-rose-500 text-lg font-medium border border-rose-300 rounded-full px-4 py-2">
             Input password
@@ -133,7 +133,7 @@ export default function Home() {
               </div>
 
               {/* Password Analysis */}
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-4 gap-4">
                 {Object.entries(result.features).map(([key, val]) => (
                   <div key={key} className="bg-rose-50 p-3 rounded-xl">
                     <div className="text-sm text-rose-700 font-medium">
